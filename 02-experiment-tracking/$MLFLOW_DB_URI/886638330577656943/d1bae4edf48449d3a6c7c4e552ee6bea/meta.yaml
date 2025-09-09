@@ -1,0 +1,14 @@
+artifact_uri: /home/imvaibhavrana/mlops/02-experiment-tracking/$MLFLOW_DB_URI/886638330577656943/d1bae4edf48449d3a6c7c4e552ee6bea/artifacts
+end_time: 1757411177416
+entry_point_name: ''
+experiment_id: '886638330577656943'
+lifecycle_stage: active
+run_id: d1bae4edf48449d3a6c7c4e552ee6bea
+run_name: peaceful-grub-955
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757411177228
+status: 3
+tags: []
+user_id: imvaibhavrana

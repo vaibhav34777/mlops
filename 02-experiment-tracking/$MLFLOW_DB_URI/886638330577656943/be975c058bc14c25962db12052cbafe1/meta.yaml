@@ -1,0 +1,14 @@
+artifact_uri: /home/imvaibhavrana/mlops/02-experiment-tracking/$MLFLOW_DB_URI/886638330577656943/be975c058bc14c25962db12052cbafe1/artifacts
+end_time: 1757411484297
+entry_point_name: ''
+experiment_id: '886638330577656943'
+lifecycle_stage: active
+run_id: be975c058bc14c25962db12052cbafe1
+run_name: able-pug-604
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757411482752
+status: 3
+tags: []
+user_id: imvaibhavrana

@@ -1,0 +1,6 @@
+artifact_location: /home/imvaibhavrana/mlops/02-experiment-tracking/$MLFLOW_DB_URI/886638330577656943
+creation_time: 1757386861713
+experiment_id: '886638330577656943'
+last_update_time: 1757386861713
+lifecycle_stage: active
+name: nyc-taxi-experiment

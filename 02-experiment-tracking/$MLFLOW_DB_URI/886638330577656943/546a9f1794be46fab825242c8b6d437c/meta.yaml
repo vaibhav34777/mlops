@@ -1,0 +1,14 @@
+artifact_uri: /home/imvaibhavrana/mlops/02-experiment-tracking/$MLFLOW_DB_URI/886638330577656943/546a9f1794be46fab825242c8b6d437c/artifacts
+end_time: 1757411485911
+entry_point_name: ''
+experiment_id: '886638330577656943'
+lifecycle_stage: active
+run_id: 546a9f1794be46fab825242c8b6d437c
+run_name: gregarious-hare-512
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757411484318
+status: 3
+tags: []
+user_id: imvaibhavrana

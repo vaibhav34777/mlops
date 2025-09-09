@@ -1,0 +1,14 @@
+artifact_uri: /home/imvaibhavrana/mlops/02-experiment-tracking/$MLFLOW_DB_URI/886638330577656943/1e069b9092994dc1927b41de5c191136/artifacts
+end_time: 1757394041284
+entry_point_name: ''
+experiment_id: '886638330577656943'
+lifecycle_stage: active
+run_id: 1e069b9092994dc1927b41de5c191136
+run_name: unique-owl-701
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757394041239
+status: 4
+tags: []
+user_id: imvaibhavrana

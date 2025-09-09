@@ -1,0 +1,14 @@
+artifact_uri: /home/imvaibhavrana/mlops/02-experiment-tracking/$MLFLOW_DB_URI/886638330577656943/840300a600204c66b75b848b562a0f49/artifacts
+end_time: 1757395312740
+entry_point_name: ''
+experiment_id: '886638330577656943'
+lifecycle_stage: active
+run_id: 840300a600204c66b75b848b562a0f49
+run_name: mysterious-ram-936
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757395312607
+status: 3
+tags: []
+user_id: imvaibhavrana

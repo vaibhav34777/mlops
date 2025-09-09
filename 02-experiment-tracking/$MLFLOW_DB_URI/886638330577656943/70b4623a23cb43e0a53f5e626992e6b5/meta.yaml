@@ -1,0 +1,14 @@
+artifact_uri: /home/imvaibhavrana/mlops/02-experiment-tracking/$MLFLOW_DB_URI/886638330577656943/70b4623a23cb43e0a53f5e626992e6b5/artifacts
+end_time: 1757395312957
+entry_point_name: ''
+experiment_id: '886638330577656943'
+lifecycle_stage: active
+run_id: 70b4623a23cb43e0a53f5e626992e6b5
+run_name: funny-hound-496
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757395312756
+status: 3
+tags: []
+user_id: imvaibhavrana

@@ -1,0 +1,14 @@
+artifact_uri: /home/imvaibhavrana/mlops/02-experiment-tracking/$MLFLOW_DB_URI/886638330577656943/8764b77c1ffa4431b093b347cbf49d73/artifacts
+end_time: 1757394726751
+entry_point_name: ''
+experiment_id: '886638330577656943'
+lifecycle_stage: active
+run_id: 8764b77c1ffa4431b093b347cbf49d73
+run_name: popular-deer-101
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757394725265
+status: 4
+tags: []
+user_id: imvaibhavrana

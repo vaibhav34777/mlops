@@ -1,0 +1,14 @@
+artifact_uri: /home/imvaibhavrana/mlops/02-experiment-tracking/$MLFLOW_DB_URI/886638330577656943/8bd5973e93744defa4a99db6a9ee373b/artifacts
+end_time: 1757395313430
+entry_point_name: ''
+experiment_id: '886638330577656943'
+lifecycle_stage: active
+run_id: 8bd5973e93744defa4a99db6a9ee373b
+run_name: exultant-bug-719
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757395313225
+status: 3
+tags: []
+user_id: imvaibhavrana

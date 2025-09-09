@@ -1,0 +1,14 @@
+artifact_uri: /home/imvaibhavrana/mlops/02-experiment-tracking/$MLFLOW_DB_URI/886638330577656943/23513ff2622d45ad8a344a961797c562/artifacts
+end_time: 1757411177520
+entry_point_name: ''
+experiment_id: '886638330577656943'
+lifecycle_stage: active
+run_id: 23513ff2622d45ad8a344a961797c562
+run_name: blushing-asp-687
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757411177426
+status: 3
+tags: []
+user_id: imvaibhavrana

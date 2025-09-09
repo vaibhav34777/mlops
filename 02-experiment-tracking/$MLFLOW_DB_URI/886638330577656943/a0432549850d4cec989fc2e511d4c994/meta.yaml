@@ -1,0 +1,14 @@
+artifact_uri: /home/imvaibhavrana/mlops/02-experiment-tracking/$MLFLOW_DB_URI/886638330577656943/a0432549850d4cec989fc2e511d4c994/artifacts
+end_time: 1757412445185
+entry_point_name: ''
+experiment_id: '886638330577656943'
+lifecycle_stage: active
+run_id: a0432549850d4cec989fc2e511d4c994
+run_name: suave-wasp-613
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757412437137
+status: 3
+tags: []
+user_id: imvaibhavrana

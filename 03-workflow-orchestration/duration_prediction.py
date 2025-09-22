@@ -5,6 +5,7 @@ from sklearn.feature_extraction import DictVectorizer
 from sklearn.metrics import root_mean_squared_error
 import xgboost as xgb
 import mlflow
+from prefect import task,flow
 
 mlflow.set_tracking_uri('http://localhost:5000')
 mlflow.set_experiment("duration-prediction")
@@ -14,6 +15,7 @@ categorical = ['PULocationID','DOLocationID']
 numerical = ['trip_distance']
 target = 'duration'
 new_feature = ['PU_DO']
+@task(retries=3, retry_delay_seconds=2  )
 def read_df(year,month):
     df = pd.read_parquet(f'https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_{year:04d}-{month:02d}.parquet')
     df['duration'] = df.tpep_dropoff_datetime - df.tpep_pickup_datetime
@@ -23,6 +25,7 @@ def read_df(year,month):
     df['PU_DO'] = df['PULocationID'] + '_' + df['DOLocationID']   # creating a new feature
     return df
 
+@task
 def create_Xy(df,dv=None):
     dicts = df[categorical + numerical + new_feature].to_dict(orient='records')
     if dv is None:
@@ -33,6 +36,7 @@ def create_Xy(df,dv=None):
     y = df[target].values
     return X, y, dv
 
+@task
 def train_model(X_train, y_train, X_val, y_val, dv):
     with mlflow.start_run() as run:
         train = xgb.DMatrix(X_train, label=y_train)
@@ -70,6 +74,7 @@ def train_model(X_train, y_train, X_val, y_val, dv):
         run_id = run.info.run_id
         return rmse, run_id
 
+@flow(log_prints=True)
 def main(args=None):
     import argparse
     parser = argparse.ArgumentParser()

@@ -1,1 +1,4 @@
 fastapi
+uvicorn
+mlflow
+google-cloud-storage

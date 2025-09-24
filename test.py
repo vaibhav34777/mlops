@@ -1,5 +1,5 @@
 import requests
-url = "http://0.0.0.0:8000/predict"
+url = "http://localhost:8000/predict"
 
 payload = {
     "PULocationID": 10,

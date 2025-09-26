@@ -1,0 +1,5 @@
+pandas
+mlflow
+pyarrow
+gcsfs
+google-cloud-storage
